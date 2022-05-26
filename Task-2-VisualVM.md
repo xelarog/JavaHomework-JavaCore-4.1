@@ -27,13 +27,34 @@
 
 ![Screenshot01.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_01.png)
 
-### 4
+### 4 Далее рассмотрим график "Куча"
 
 ```
-20:35:49.800953900: loading org.springframework
-20:35:50.107780800: loaded 869 classes
+22:13:58.289706300: creating 5000000 objects
+22:13:58.618517400: created
 ```
-Идёт загрузка библиотеки `org.springframework`, всего загружено 869 классов
-Информация о них также загружается в Metaspace
+Идёт создание 5000000 объектов, они помещаются в область памяти Куча
 
-![Screenshot1.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_1.png)
+### 5 
+
+```
+22:14:01.626218700: creating 5000000 objects
+22:14:01.929618500: created
+```
+Ещё раз идёт создание 5000000 объектов, также помещаются в Кучу
+
+### 6 
+
+```
+22:14:04.990638500: creating 5000000 objects
+22:14:05.298464500: created
+```
+И наконец третье создание 5000000 объектов
+
+Все три вызова функции создания этих объектов отражены на графике Heap
+
+![Screenshot02.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_02.png)
+
+Также видно, как увеличивается размер самой Кучи, при резком увеличении её загрузки. Так же один раз отработал сборщик мусора 
+
+![Screenshot02.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_03.png)
