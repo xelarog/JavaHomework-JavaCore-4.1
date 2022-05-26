@@ -55,6 +55,6 @@
 
 ![Screenshot02.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_02.png)
 
-Также видно, как увеличивается размер самой Кучи, при резком увеличении её загрузки. Так же один раз отработал сборщик мусора 
+Также видно, как увеличивается размер самой Кучи, при резком увеличении её загрузки. Так же один раз отработал сборщик мусора(по времени - это произошло после первого выхода из метода создания объектов `createSimpleObjects`
 
 ![Screenshot02.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_03.png)
