@@ -36,4 +36,4 @@
 Идёт загрузка библиотеки `org.springframework`, всего загружено 869 классов
 Информация о них также загружается в Metaspace
 
-![Screenshot1.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_3.png)
+![Screenshot1.png](https://github.com/xelarog/JavaHomework-JavaCore-4.1/blob/main/Screenshot_1.png)
